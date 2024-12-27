@@ -1,5 +1,4 @@
 # Ignore these files
 backendd/node_modules
 backendd/.env
-backendd/uploads
 sentiment-analysis-blogapp/node_modules
