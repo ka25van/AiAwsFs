@@ -7,6 +7,7 @@ const blogRoutes = require('./routes/blogs');
 const authRoutes = require('./routes/auth')
 
 dotenv.config()
+const port = process.env.PORT || 5000;
 
 const app =express();
 
@@ -22,4 +23,4 @@ mongoose.connect(process.env.MONGODB_URL)
         .then(()=> console.log("Mongoose Connected"))
         .catch((err)=> console.log(err))
 
-app.listen(5000, ()=> console.log("Server Running"))
+app.listen(port, ()=> console.log("Server Running"))
