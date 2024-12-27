@@ -1,0 +1,24 @@
+.blog-list {
+    max-width: 700px;
+    margin: 20px auto;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blog-item {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-item h3 {
+    color: #0056b3;
+  }
+  
+  .blog-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
