@@ -13,7 +13,6 @@ const app =express();
 
 app.use(cors());
 app.use(express.json());
-app.get("/", ()=> console.log("Hi Backend"))
 app.use('/blogs', blogRoutes);
 app.use('/auth', authRoutes);
 app.use("/uploads", express.static("uploads")); // Serve files in the 'uploads' folder
